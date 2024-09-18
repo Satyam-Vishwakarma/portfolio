@@ -6,7 +6,7 @@
     --pri:#ffc107;
 }
 body{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(/img/pexels-veeterzy-303383.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(img/pexels-veeterzy-303383.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: end;
@@ -271,14 +271,14 @@ main{
                 transition: all 0.1s ease-in-out;
             }
             .bookAi{
-                background-image: url(/img/logo.png);
+                background-image: url(img/logo.png);
                 background-size: cover;
                 background-position-x: -13px;
                 background-repeat: no-repeat;
 
             }
             .amazon{
-                background-image: url(/img/amazon_logo-png.png);
+                background-image: url(img/amazon_logo-png.png);
                 background-size: contain;
                 background-repeat: no-repeat;
                 background-position-y: 2.8rem;
@@ -337,28 +337,28 @@ footer{
                 transition: all 0.3s ease-in-out
             }
             .linkedin{
-                background-image: url(/img/icons8-linkedin-logo-141.png);
+                background-image: url(img/icons8-linkedin-logo-141.png);
                 background-size: cover;
             }
             .linkedin:hover{
                 box-shadow: inset 0px 0px 10px #0a66c2;
             }
             .github{
-                background-image: url(/img/icons8-github-logo-141.png);
+                background-image: url(img/icons8-github-logo-141.png);
                 background-size: contain;
             }
             .github:hover{
                 box-shadow: inset 0px 0px 10px #222222;
             }
             .instagram{
-                background-image: url(/img/icons8-instagram-logo-141.png);
+                background-image: url(img/icons8-instagram-logo-141.png);
                 background-size: cover;
             }
             .instagram:hover{
                 box-shadow: inset 0px 0px 10px #E1306C;
             }
             .whatsapp{
-                background-image: url(/img/icons8-whatsapp-logo-141.png);
+                background-image: url(img/icons8-whatsapp-logo-141.png);
                 background-size: contain;
             }
             .whatsapp:hover{
