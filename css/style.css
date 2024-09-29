@@ -6,7 +6,7 @@
     --pri:#ffc107;
 }
 body{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(../img/pexels-veeterzy-303383.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url(../img/software-developer-6521720_1920.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: end;
@@ -126,10 +126,10 @@ main{
         .photo{
             width: 13rem;
             height: 15rem;
-            border: 1px solid var(--pri);
+            box-shadow: 1px 3px 0px 3.5px #ffc107;
             border-radius: 50%;
             transform: scaleX(-1);
-             background-image: url(/portfolio/img/IMG-20240612-WA0002-removebg-preview.png);
+             background-image: url(../img/IMG-20240612-WA0002-removebg-preview.png);
              background-size: cover;
              margin: 10px 0px 10px 0px;
              /* background-position-x: -10px; */
