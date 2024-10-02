@@ -278,12 +278,16 @@ main{
 
             .html {width: 90%; background-color: #04AA6D;} /* Green */
             .css {width: 90%; background-color: #2196F3;} /* Blue */
-            .js {width: 65%; background-color: #f44336;} /* Red */
-            .bootstrap {width: 60%; background-color: #808080;} /* Dark Grey */
+            .js {width: 65%; background-color: #ff1100;} /* Red */
+            .bootstrap {width: 50%; background-color: #808080;} /* Dark Grey */
+            .mysql {width: 40%; background-color: #ff00dd;} 
+            .github {width: 100%; background-color: #07eb1a;}
             .html>span{background-color: #04AA6D;}
             .css>span{background-color: #2196F3;}
-            .js>span{background-color: #f44336;}
+            .js>span{background-color: #ff1100;}
             .bootstrap>span{background-color: #808080;}
+            .mysql>span{background-color: #ff00dd;}
+            .github>span{background-color: #07eb1a;}
         }
     }
     .project{
@@ -325,7 +329,7 @@ main{
                 display: inline-block;
                 width: 7rem;
                 height: 7rem;
-                box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.699);
+                box-shadow: 0px 0px 0px 0.5px rgba(255, 255, 255, 0.699);
                 border-radius: 10px;
                 transition: all 0.1s ease-in-out;
             }
@@ -352,11 +356,11 @@ main{
                 text-align: center;
                 align-content: center;
                 text-wrap: nowrap;
-                text-shadow: 0px 0px 10px white;
+                text-shadow: 0px 0px 10px rgb(0, 0, 0);
             }
             div:hover{
-                transform: scale3d(2px);
-                box-shadow: 0px 0px 7px white;
+                transform: scale(1.05);
+                box-shadow: 0px -3px 0px 0.5px #ffc107;
             }
         }
 
