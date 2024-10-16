@@ -6,13 +6,13 @@
     --pri:#ffc107;
 }
 body{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url(../img/3dBg.jfif);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../img/3dBg.jfif);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
     
 }
-.header{
+header{
     width: 100%;
     height: fit-content;
     display: flex;
@@ -20,10 +20,10 @@ body{
     position: fixed;
     z-index: 1;
     background-color: rgba(211, 208, 208, 0.027);
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(10px);
     border-bottom-left-radius: 10rem;
     border-bottom-right-radius: 10rem;
-    box-shadow: 0px 0.5px 1px var(--pri);
+    box-shadow: 0px 0.5px 5px var(--pri);
 
     @media (min-width: 300px ) and (max-width: 600px) {
         align-items: center;
@@ -56,10 +56,10 @@ body{
     }
 }
 @keyframes size {
-    0% {
+    from {
         transform: translate(0px)
     }        
-    100% {
+    to {
         transform: translate(10px);
     }
 }
@@ -107,47 +107,47 @@ main{
         border-right: 1px solid var(--pri);
         margin-top: 10rem;
         color: rgb(255, 255, 255);
-        align-content: center;
+        /* align-content: center; */
 
         .home-content{
             display: flex;
             align-items: center;
             justify-content: space-evenly;
-        }
+            margin-bottom: 40px;
 
-        .home-about{
-            h6{
-                margin-bottom: 0px;
-            }
-            h1{
-                display: inline-block;
-            }
-            i{
-                font-style: normal;
-                color: var(--pri);
-            }
-            hr{
-                color: #ffc107;
-                margin:0px 0px 30px 0px;
-            }
-            .buttons{
-                    display: flex;
-                    justify-content: center;
-                    span{
-                        margin: 0px 2px;
-                    }
+            .home-about{
+                h6{
+                    margin-bottom: 0px;
                 }
-        }
+                /* h1{
+                    display: inline-block;
+                } */
+                i{
+                    font-style: normal;
+                    color: var(--pri);
+                }
+                hr{
+                    color: #ffc107;
+                    margin:0px 0px 30px 0px;
+                }
+                .buttons{
+                        display: flex;
+                        justify-content: center;
+                        span{
+                            margin: 0px 2px;
+                        }
+                    }
+            }
+        }    
         .photo{
             width: 13rem;
             height: 15rem;
             box-shadow: 1px 3px 0px 3.5px #ffc107;
             border-radius: 50%;
-            transform: scaleX(-1);
+            transform: scaleX(-1); /*use for image flip*/
              background-image: url(../img/IMG-20240612-WA0002-removebg-preview.png);
              background-size: cover;
-             margin: 10px 0px 10px 0px;
-             /* background-position-x: -10px; */
+             margin: 20px 0px 20px 0px;
         }
 
         @media (min-width: 300px) and (max-width:600px) {
@@ -236,10 +236,9 @@ main{
         .skill-skill{
             width: 80%;
             height: 100%;
-            margin-bottom: 20px;
+            margin-bottom: 40px;
             display: flex;
             flex-direction: column;
-            justify-content: start;
 
             /* Container for skill bars */
             .container {
@@ -258,7 +257,7 @@ main{
                display: flex;
                align-items:center;
                justify-content: end;
-                color: rgb(2, 2, 2); /* White text color */
+                color: rgb(2, 2, 2); /*text color */
                 height: 10px;
                 border-radius: 5px;
                 span{
@@ -268,12 +267,9 @@ main{
                     width: 27px;
                     box-shadow: 0px 0px 3px black;
                     border-radius: 50%;
-                    background-color: #ffffff;
                     font-size:11px;
                     font-weight: bold;
                 }
-
-            
             }
 
             .html {width: 90%; background-color: #04AA6D;} /* Green */
@@ -316,7 +312,7 @@ main{
         .project-project{
             width: 80%;
             height: 90%;
-            margin-bottom: 20px;
+            margin-bottom: 40px;
             display: flex;
             align-items: center ;
             justify-content: space-evenly;
@@ -344,8 +340,7 @@ main{
                 background-image: url(../img/amazon_logo-png.png);
                 background-size: contain;
                 background-repeat: no-repeat;
-                background-position-y: 2.8rem;
-
+                background-position-y: 45px;
             }
             a{
                 text-decoration: none;
@@ -389,7 +384,7 @@ footer{
         align-items: center;
         justify-content: center;
         
-        .lct{
+        .lets{
             align-content: center;
             margin-top: 10px;
             font-size: small;
@@ -415,7 +410,7 @@ footer{
             }
             .linkedin:hover{
                 transform: scale(1.2);
-                box-shadow: inset 0px 0px 10px #0a66c2;
+                box-shadow: 0px 0px 5px #0a66c2;
             }
             .github{
                 background-image: url(../img/icons8-github-logo-141.png);
@@ -423,7 +418,7 @@ footer{
             }
             .github:hover{
                 transform: scale(1.2);
-                box-shadow: inset 0px 0px 10px #222222;
+                box-shadow: 0px 0px 5px #ffffff;
             }
             .instagram{
                 background-image: url(../img/icons8-instagram-logo-141.png);
@@ -431,7 +426,7 @@ footer{
             }
             .instagram:hover{
                 transform: scale(1.2);
-                box-shadow: inset 0px 0px 10px #E1306C;
+                box-shadow: 0px 0px 5px #E1306C;
             }
             .whatsapp{
                 background-image: url(../img/icons8-whatsapp-logo-141.png);
@@ -439,7 +434,7 @@ footer{
             }
             .whatsapp:hover{
                 transform: scale(1.2);
-                box-shadow: inset 0px 0px 10px #25D366;
+                box-shadow: 0px 0px 5px #25D366;
             }
         }
 
