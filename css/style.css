@@ -347,6 +347,11 @@ main{
                 background-position-y: 2.8rem;
 
             }
+            .tic-tac-toe{
+                background-image: url(../img/tic-tac-toe-removebg-preview.png);
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
             a{
                 text-decoration: none;
                 color: white;
