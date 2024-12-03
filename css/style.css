@@ -347,6 +347,11 @@ main{
                 background-size: contain;
                 background-repeat: no-repeat;
             }
+            .rock-paper-scissors{
+                background-image: url(../img/rock-paper-scissors-removebg-preview.png);
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
             a{
                 text-decoration: none;
                 color: white;
